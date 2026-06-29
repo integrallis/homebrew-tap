@@ -11,7 +11,7 @@ class Mfcqi < Formula
     end
     on_intel do
       url "https://github.com/integrallis/mfcqi-java/releases/download/v0.3.0/mfcqi-macos-x86_64"
-      sha256 "df649458b6d8d9a1cca15c937d6d129b358ab4dd20d744f0ab237dd6c06bb7e4"
+      sha256 "7def258ea2544a8555a7112d2f9d3d6d7af63252bafdf908b99e011ac4bb496c"
     end
   end
 
