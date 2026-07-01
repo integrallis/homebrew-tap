@@ -9,7 +9,10 @@ class Mfcqi < Formula
       url "https://github.com/integrallis/mfcqi-java/releases/download/v0.5.0/mfcqi-macos-aarch64"
       sha256 "cceafcaad0faa76993dde7711af16a6cd1b68ff071a539269b78326262a42ccb"
     end
-    # Intel macOS: no native binary is published; use the JVM distribution or build from source.
+    on_intel do
+      url "https://github.com/integrallis/mfcqi-java/releases/download/v0.5.0/mfcqi-macos-x86_64"
+      sha256 "29554b523a4626edc393bcc6784af9cf2a88df8f2bb4b7ce6e8a01f682a77d4a"
+    end
   end
 
   on_linux do
