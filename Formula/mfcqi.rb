@@ -1,24 +1,21 @@
 class Mfcqi < Formula
   desc "Multi-Factor Code Quality Index for Java codebases"
   homepage "https://github.com/integrallis/mfcqi-java"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/integrallis/mfcqi-java/releases/download/v0.5.0/mfcqi-macos-aarch64"
-      sha256 "cceafcaad0faa76993dde7711af16a6cd1b68ff071a539269b78326262a42ccb"
+      url "https://github.com/integrallis/mfcqi-java/releases/download/v0.6.0/mfcqi-macos-aarch64"
+      sha256 "8e54b13fb0879a98d908badbad0a3d74475b563f4038f82f0322b495a58434d3"
     end
-    on_intel do
-      url "https://github.com/integrallis/mfcqi-java/releases/download/v0.5.0/mfcqi-macos-x86_64"
-      sha256 "29554b523a4626edc393bcc6784af9cf2a88df8f2bb4b7ce6e8a01f682a77d4a"
-    end
+    # Intel macOS: no native binary is published; use the JVM distribution or build from source.
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/integrallis/mfcqi-java/releases/download/v0.5.0/mfcqi-linux-x86_64"
-      sha256 "2690a7e3d971013bf211b743794654bd45ab3c27788bf79fbe29bf00d4d479af"
+      url "https://github.com/integrallis/mfcqi-java/releases/download/v0.6.0/mfcqi-linux-x86_64"
+      sha256 "2b7f2eef81334b35385e398acf209e9c783b4da332463bccbf529980a4d8f6f0"
     end
   end
 
