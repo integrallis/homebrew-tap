@@ -1,28 +1,28 @@
 class Modeljars < Formula
   desc "Discover and securely prefetch qualified local AI models"
   homepage "https://modeljars.org"
-  version "0.1.3"
+  version "0.1.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.3/modeljars-macos-aarch64"
-      sha256 "88f78a369ce5754a5521db887789686b63713242698219828fb9ec68a4e4b7d4"
+      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.4/modeljars-macos-aarch64"
+      sha256 "9756e72ec05d39e04fb1bf653c824dad03fc1e1cef255cf59b9373e82c4cc69e"
     end
     on_intel do
-      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.3/modeljars-macos-x86_64"
-      sha256 "f4fe052d7ac0f044b7a96ff59061d9389dfb2a8c68cb6740cb0531cb13c4830d"
+      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.4/modeljars-macos-x86_64"
+      sha256 "fd54acd55a95a9a01b672fc42654869d959039478bb1a060fe53ac9273408b7c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.3/modeljars-linux-aarch64"
-      sha256 "afb58f4a8043ce34cf7ba5c7f69547d1a9b7a54ce989fdf26c34348418bcd437"
+      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.4/modeljars-linux-aarch64"
+      sha256 "4cea1130870d332ae28f6a5089095ad97b8fb3c85fdf52c8a380f02f5f617cee"
     end
     on_intel do
-      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.3/modeljars-linux-x86_64"
-      sha256 "9d5c69c2263b0295fabacbb05089817f4e35f2ff4707dbd30947273784a56dfd"
+      url "https://github.com/ModelJars/modeljars/releases/download/v0.1.4/modeljars-linux-x86_64"
+      sha256 "bc8092a46f3924380c7581bfbe26cc954eeb10577bea5538b1ea18d9f40cefdd"
     end
   end
 
