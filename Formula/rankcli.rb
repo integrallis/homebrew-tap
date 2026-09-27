@@ -1,28 +1,28 @@
 class Rankcli < Formula
   desc "Ship code, get ranked - SEO/GEO audits for CI/CD"
   homepage "https://rankcli.dev"
-  version "0.0.45"
+  version "0.0.46"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.45/rankcli-macos-aarch64"
-      sha256 "5cbd0c92c667de2acf64bc9de58f735782a47bdbb80c383458475dbadcc95093"
+      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.46/rankcli-macos-aarch64"
+      sha256 "fb2c53450f70f554066c9fa8cdd7bf61e548c3a9c4c0a0a56517bd15c28fdd19"
     end
     on_intel do
-      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.45/rankcli-macos-x86_64"
-      sha256 "d934a8b97eb8b56444c8171726d587b86b4fcb735d96300070492c5e2f1a9495"
+      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.46/rankcli-macos-x86_64"
+      sha256 "b5f57290a8bdf208c56d3572b9980934a2c231ad389f3a92b79f73fa66da096e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.45/rankcli-linux-aarch64"
-      sha256 "dd187e82d0d14f9970b399c97109959f4ebc28d05660ed12221c0edd245daad9"
+      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.46/rankcli-linux-aarch64"
+      sha256 "95b8e73d0e460039fd4287142baacfb6dd669678ecfa2398e02f470170ecbb29"
     end
     on_intel do
-      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.45/rankcli-linux-x86_64"
-      sha256 "5bc2a0fff6cb8fac8899f8516ab4ac61514b0b1cf50edbb77c544f09507f74b3"
+      url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.46/rankcli-linux-x86_64"
+      sha256 "f1b8a62c14d5cf341a0fbf15a88f19e268ead134a16dce3bfd19bfbe5ba26228"
     end
   end
 
