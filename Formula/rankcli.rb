@@ -7,22 +7,22 @@ class Rankcli < Formula
   on_macos do
     on_arm do
       url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.47/rankcli-macos-aarch64"
-      sha256 "68e05eaa28a78ccd1a33cfa2254fb29d5b774ab501423a0d2233ce6ee8deee27"
+      sha256 "1d83d16655351cdd3c6f93b9dc1e51dd35b05335c29e80a31ec009efc393d305"
     end
     on_intel do
       url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.47/rankcli-macos-x86_64"
-      sha256 "9fd82e069eada00597977d32b5b1458a562af2d7cb40146d9961d210903676eb"
+      sha256 "04dc3fbe1b32bbc45e094fd4b87a9f6e20688023b9e531a38e08f40f443a432b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.47/rankcli-linux-aarch64"
-      sha256 "1d13a4087d78fe141ce988f3afddd05276db569495bba65bc7d81d3f8ba8cf74"
+      sha256 "0b41ac54d987fb38427748b6c8ba8348c4bb7ec8a2105c14c0c71664b2bba52d"
     end
     on_intel do
       url "https://github.com/integrallis/rankcli-cli/releases/download/v0.0.47/rankcli-linux-x86_64"
-      sha256 "9f6fdcf210491a36601454c683680b124e4326512d799b8fb22ed69665840be1"
+      sha256 "7679e1a1b790e0a2ad06635d9f0be7999a1e434b02c1e295b4377774c55c568f"
     end
   end
 
